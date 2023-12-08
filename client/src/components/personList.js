@@ -60,6 +60,8 @@ export default function PersonList() {
                 firstname={person.firstname}
                 lastname={person.lastname}
                 age={person.age}
+                key={person._id}
+                keyt={person._id}
                 deletePerson={deletePerson}
                 editPerson={editPerson}
               />

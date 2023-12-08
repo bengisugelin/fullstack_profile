@@ -8,7 +8,7 @@ import {
 
 import Home from "./pages/Home.js"
 import AddPerson from "./pages/AddPerson.js";
-// import Edit from "./pages/Edit.js";
+import Edit from "./pages/Edit.js";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home/>}> </Route>
         <Route path="/create" element={<AddPerson/>}/>
-        {/* <Route path="/update/:id" element={<Edit/>}/> */}
+        <Route path="/update/:id" element={<Edit/>}/>
       </Routes>
     </BrowserRouter>
   );

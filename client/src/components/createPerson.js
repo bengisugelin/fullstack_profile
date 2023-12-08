@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-export default function CreateBook() {
+export default function CreatePerson() {
   const [firstname, setfirstname] = useState('');
   const [lastname, setlastname] = useState('');
   const [age, setAge] = useState('');
